@@ -1,0 +1,5 @@
+jdbc.url=jdbc:mysql://localhost/demoes?useUnicode=true&characterEncoding=utf-8
+jdbc.user=root
+jdbc.pwd=
+jdbc.driver=com.mysql.jdbc.Driver
+

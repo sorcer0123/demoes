@@ -1,0 +1,2738 @@
+
+2016-01-23 12:38:39
+[ERROR]-[Thread: qtp918128649-19]-[com.jfinal.core.ActionHandler.handle()]: /admin
+java.lang.NullPointerException
+	at com.jfinal.plugin.activerecord.Db.queryLong(Db.java:114)
+	at com.aotimes.yy.demo.act.LoginAct.admin(LoginAct.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:73)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:74)
+	at com.jfinal.plugin.druid.DruidStatViewHandler.handle(DruidStatViewHandler.java:75)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:744)
+
+2016-01-23 12:41:15
+[ERROR]-[Thread: qtp918128649-22]-[com.jfinal.core.ActionHandler.handle()]: /admin
+java.lang.NullPointerException
+	at com.jfinal.plugin.activerecord.Db.queryLong(Db.java:114)
+	at com.aotimes.yy.demo.act.LoginAct.admin(LoginAct.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:73)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:74)
+	at com.jfinal.plugin.druid.DruidStatViewHandler.handle(DruidStatViewHandler.java:75)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:744)
+
+2016-01-23 12:43:02
+[ERROR]-[Thread: qtp918128649-18]-[com.jfinal.core.ActionHandler.handle()]: /admin
+java.lang.NullPointerException
+	at com.jfinal.plugin.activerecord.Db.queryInt(Db.java:106)
+	at com.aotimes.yy.demo.act.LoginAct.admin(LoginAct.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:73)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:74)
+	at com.jfinal.plugin.druid.DruidStatViewHandler.handle(DruidStatViewHandler.java:75)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:744)
+
+2016-01-23 12:45:16
+[ERROR]-[Thread: qtp918128649-22]-[com.jfinal.core.ActionHandler.handle()]: /admin
+java.lang.NullPointerException
+	at com.jfinal.plugin.activerecord.Db.queryInt(Db.java:106)
+	at com.aotimes.yy.demo.act.LoginAct.admin(LoginAct.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:73)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:74)
+	at com.jfinal.plugin.druid.DruidStatViewHandler.handle(DruidStatViewHandler.java:75)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:744)
+
+2016-01-23 12:53:43
+[ERROR]-[Thread: qtp168186187-22]-[com.jfinal.core.ActionHandler.handle()]: /admin
+java.lang.NullPointerException
+	at com.jfinal.plugin.activerecord.Db.queryInt(Db.java:106)
+	at com.aotimes.yy.demo.act.LoginAct.admin(LoginAct.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:73)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:74)
+	at com.jfinal.plugin.druid.DruidStatViewHandler.handle(DruidStatViewHandler.java:75)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:744)
+
+2016-01-23 13:15:16
+[ERROR]-[Thread: qtp168186187-20]-[com.jfinal.core.ActionHandler.handle()]: /admin
+com.jfinal.render.RenderException: org.apache.jasper.JasperException: /page/admin/admin.jsp(16,59) PWC6061: Expecting "jsp:param" standard action with "name" and "value" attributes
+	at com.jfinal.render.JspRender.render(JspRender.java:69)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:97)
+	at com.jfinal.plugin.druid.DruidStatViewHandler.handle(DruidStatViewHandler.java:75)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.apache.jasper.JasperException: /page/admin/admin.jsp(16,59) PWC6061: Expecting "jsp:param" standard action with "name" and "value" attributes
+	at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:81)
+	at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:376)
+	at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:133)
+	at org.apache.jasper.compiler.Parser.parseParam(Parser.java:951)
+	at org.apache.jasper.compiler.Parser.parseBody(Parser.java:1917)
+	at org.apache.jasper.compiler.Parser.parseOptionalBody(Parser.java:1159)
+	at org.apache.jasper.compiler.Parser.parseInclude(Parser.java:987)
+	at org.apache.jasper.compiler.Parser.parseStandardAction(Parser.java:1310)
+	at org.apache.jasper.compiler.Parser.parseElements(Parser.java:1674)
+	at org.apache.jasper.compiler.Parser.parse(Parser.java:185)
+	at org.apache.jasper.compiler.ParserController.doParse(ParserController.java:244)
+	at org.apache.jasper.compiler.ParserController.parse(ParserController.java:145)
+	at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:212)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:451)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:625)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:374)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:492)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:378)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:578)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.Dispatcher.forward(Dispatcher.java:276)
+	at org.eclipse.jetty.server.Dispatcher.forward(Dispatcher.java:103)
+	at com.jfinal.render.JspRender.render(JspRender.java:67)
+	... 26 more
+
+2016-01-23 13:15:46
+[ERROR]-[Thread: qtp168186187-20]-[com.jfinal.core.ActionHandler.handle()]: /admin
+com.jfinal.render.RenderException: org.apache.jasper.JasperException: /page/admin/admin.jsp(16,59) PWC6061: Expecting "jsp:param" standard action with "name" and "value" attributes
+	at com.jfinal.render.JspRender.render(JspRender.java:69)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:97)
+	at com.jfinal.plugin.druid.DruidStatViewHandler.handle(DruidStatViewHandler.java:75)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.apache.jasper.JasperException: /page/admin/admin.jsp(16,59) PWC6061: Expecting "jsp:param" standard action with "name" and "value" attributes
+	at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:81)
+	at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:376)
+	at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:133)
+	at org.apache.jasper.compiler.Parser.parseParam(Parser.java:951)
+	at org.apache.jasper.compiler.Parser.parseBody(Parser.java:1917)
+	at org.apache.jasper.compiler.Parser.parseOptionalBody(Parser.java:1159)
+	at org.apache.jasper.compiler.Parser.parseInclude(Parser.java:987)
+	at org.apache.jasper.compiler.Parser.parseStandardAction(Parser.java:1310)
+	at org.apache.jasper.compiler.Parser.parseElements(Parser.java:1674)
+	at org.apache.jasper.compiler.Parser.parse(Parser.java:185)
+	at org.apache.jasper.compiler.ParserController.doParse(ParserController.java:244)
+	at org.apache.jasper.compiler.ParserController.parse(ParserController.java:145)
+	at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:212)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:451)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:625)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:374)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:492)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:378)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:578)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.Dispatcher.forward(Dispatcher.java:276)
+	at org.eclipse.jetty.server.Dispatcher.forward(Dispatcher.java:103)
+	at com.jfinal.render.JspRender.render(JspRender.java:67)
+	... 26 more
+
+2016-01-23 13:16:05
+[ERROR]-[Thread: qtp168186187-22]-[com.jfinal.core.ActionHandler.handle()]: /admin
+com.jfinal.render.RenderException: org.apache.jasper.JasperException: /page/admin/admin.jsp(16,47) PWC6061: Expecting "jsp:param" standard action with "name" and "value" attributes
+	at com.jfinal.render.JspRender.render(JspRender.java:69)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:97)
+	at com.jfinal.plugin.druid.DruidStatViewHandler.handle(DruidStatViewHandler.java:75)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.apache.jasper.JasperException: /page/admin/admin.jsp(16,47) PWC6061: Expecting "jsp:param" standard action with "name" and "value" attributes
+	at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:81)
+	at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:376)
+	at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:133)
+	at org.apache.jasper.compiler.Parser.parseParam(Parser.java:951)
+	at org.apache.jasper.compiler.Parser.parseBody(Parser.java:1917)
+	at org.apache.jasper.compiler.Parser.parseOptionalBody(Parser.java:1159)
+	at org.apache.jasper.compiler.Parser.parseInclude(Parser.java:987)
+	at org.apache.jasper.compiler.Parser.parseStandardAction(Parser.java:1310)
+	at org.apache.jasper.compiler.Parser.parseElements(Parser.java:1674)
+	at org.apache.jasper.compiler.Parser.parse(Parser.java:185)
+	at org.apache.jasper.compiler.ParserController.doParse(ParserController.java:244)
+	at org.apache.jasper.compiler.ParserController.parse(ParserController.java:145)
+	at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:212)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:451)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:625)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:374)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:492)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:378)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:578)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.Dispatcher.forward(Dispatcher.java:276)
+	at org.eclipse.jetty.server.Dispatcher.forward(Dispatcher.java:103)
+	at com.jfinal.render.JspRender.render(JspRender.java:67)
+	... 26 more
+
+2016-01-23 13:16:16
+[ERROR]-[Thread: qtp168186187-21]-[com.jfinal.core.ActionHandler.handle()]: /admin
+com.jfinal.render.RenderException: org.apache.jasper.JasperException: /page/admin/admin.jsp(16,46) PWC6061: Expecting "jsp:param" standard action with "name" and "value" attributes
+	at com.jfinal.render.JspRender.render(JspRender.java:69)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:97)
+	at com.jfinal.plugin.druid.DruidStatViewHandler.handle(DruidStatViewHandler.java:75)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.apache.jasper.JasperException: /page/admin/admin.jsp(16,46) PWC6061: Expecting "jsp:param" standard action with "name" and "value" attributes
+	at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:81)
+	at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:376)
+	at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:133)
+	at org.apache.jasper.compiler.Parser.parseParam(Parser.java:951)
+	at org.apache.jasper.compiler.Parser.parseBody(Parser.java:1917)
+	at org.apache.jasper.compiler.Parser.parseOptionalBody(Parser.java:1159)
+	at org.apache.jasper.compiler.Parser.parseInclude(Parser.java:987)
+	at org.apache.jasper.compiler.Parser.parseStandardAction(Parser.java:1310)
+	at org.apache.jasper.compiler.Parser.parseElements(Parser.java:1674)
+	at org.apache.jasper.compiler.Parser.parse(Parser.java:185)
+	at org.apache.jasper.compiler.ParserController.doParse(ParserController.java:244)
+	at org.apache.jasper.compiler.ParserController.parse(ParserController.java:145)
+	at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:212)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:451)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:625)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:374)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:492)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:378)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:578)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.Dispatcher.forward(Dispatcher.java:276)
+	at org.eclipse.jetty.server.Dispatcher.forward(Dispatcher.java:103)
+	at com.jfinal.render.JspRender.render(JspRender.java:67)
+	... 26 more
+
+2016-01-23 13:17:36
+[ERROR]-[Thread: qtp168186187-20]-[com.jfinal.core.ActionHandler.handle()]: /admin
+java.lang.NullPointerException
+	at com.jfinal.plugin.activerecord.Db.query(Db.java:55)
+	at com.aotimes.yy.demo.act.LoginAct.admin(LoginAct.java:25)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:73)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:74)
+	at com.jfinal.plugin.druid.DruidStatViewHandler.handle(DruidStatViewHandler.java:75)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:744)
+
+2016-01-23 13:19:14
+[ERROR]-[Thread: qtp616765457-16]-[com.jfinal.core.ActionHandler.handle()]: /admin
+java.lang.NullPointerException
+	at com.jfinal.plugin.activerecord.Db.queryInt(Db.java:106)
+	at com.aotimes.yy.demo.act.LoginAct.admin(LoginAct.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:73)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:74)
+	at com.jfinal.plugin.druid.DruidStatViewHandler.handle(DruidStatViewHandler.java:75)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:744)
+
+2016-01-23 13:22:48
+[ERROR]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: init datasource error
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'demoes'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1052)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4096)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4028)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:951)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:4600)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1328)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2395)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2428)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2213)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:797)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:389)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:305)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:148)
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:786)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1360)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1414)
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:602)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:876)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:872)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:97)
+	at com.jfinal.plugin.activerecord.TableBuilder.build(TableBuilder.java:42)
+	at com.jfinal.plugin.activerecord.ActiveRecordPlugin.start(ActiveRecordPlugin.java:225)
+	at com.jfinal.core.Config.startPlugins(Config.java:88)
+	at com.jfinal.core.Config.configJFinal(Config.java:49)
+	at com.jfinal.core.JFinal.init(JFinal.java:62)
+	at com.jfinal.core.JFinalFilter.init(JFinalFilter.java:49)
+	at org.eclipse.jetty.servlet.FilterHolder.doStart(FilterHolder.java:119)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:724)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:706)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:492)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at com.jfinal.server.JettyServer$1.onChange(JettyServer.java:108)
+	at com.jfinal.server.Scanner.compare(Scanner.java:88)
+	at com.jfinal.server.Scanner.working(Scanner.java:57)
+	at com.jfinal.server.Scanner.access$0(Scanner.java:55)
+	at com.jfinal.server.Scanner$1.run(Scanner.java:94)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+2016-01-23 13:22:48
+[ERROR]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: dataSource init error
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'demoes'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1052)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4096)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4028)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:951)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:4600)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1328)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2395)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2428)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2213)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:797)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:389)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:305)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:148)
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:786)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1360)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1414)
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:602)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:876)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:872)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:97)
+	at com.jfinal.plugin.activerecord.TableBuilder.build(TableBuilder.java:42)
+	at com.jfinal.plugin.activerecord.ActiveRecordPlugin.start(ActiveRecordPlugin.java:225)
+	at com.jfinal.core.Config.startPlugins(Config.java:88)
+	at com.jfinal.core.Config.configJFinal(Config.java:49)
+	at com.jfinal.core.JFinal.init(JFinal.java:62)
+	at com.jfinal.core.JFinalFilter.init(JFinalFilter.java:49)
+	at org.eclipse.jetty.servlet.FilterHolder.doStart(FilterHolder.java:119)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:724)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:706)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:492)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at com.jfinal.server.JettyServer$1.onChange(JettyServer.java:108)
+	at com.jfinal.server.Scanner.compare(Scanner.java:88)
+	at com.jfinal.server.Scanner.working(Scanner.java:57)
+	at com.jfinal.server.Scanner.access$0(Scanner.java:55)
+	at com.jfinal.server.Scanner$1.run(Scanner.java:94)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+2016-01-23 13:22:48
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-23 13:22:48
+[ERROR]-[Thread: JFinal-Scanner]-[com.jfinal.core.Config.startPlugins()]: Plugin start error: com.jfinal.plugin.activerecord.ActiveRecordPlugin. 
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'demoes'
+com.jfinal.plugin.activerecord.ActiveRecordException: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'demoes'
+	at com.jfinal.plugin.activerecord.TableBuilder.build(TableBuilder.java:54)
+	at com.jfinal.plugin.activerecord.ActiveRecordPlugin.start(ActiveRecordPlugin.java:225)
+	at com.jfinal.core.Config.startPlugins(Config.java:88)
+	at com.jfinal.core.Config.configJFinal(Config.java:49)
+	at com.jfinal.core.JFinal.init(JFinal.java:62)
+	at com.jfinal.core.JFinalFilter.init(JFinalFilter.java:49)
+	at org.eclipse.jetty.servlet.FilterHolder.doStart(FilterHolder.java:119)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:724)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:706)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:492)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at com.jfinal.server.JettyServer$1.onChange(JettyServer.java:108)
+	at com.jfinal.server.Scanner.compare(Scanner.java:88)
+	at com.jfinal.server.Scanner.working(Scanner.java:57)
+	at com.jfinal.server.Scanner.access$0(Scanner.java:55)
+	at com.jfinal.server.Scanner$1.run(Scanner.java:94)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'demoes'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1052)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4096)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4028)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:951)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:4600)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1328)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2395)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2428)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2213)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:797)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:389)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:305)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:148)
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:786)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1360)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1414)
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:602)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:876)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:872)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:97)
+	at com.jfinal.plugin.activerecord.TableBuilder.build(TableBuilder.java:42)
+	... 20 more
+
+2016-01-23 13:22:48
+[ERROR]-[Thread: JFinal-Scanner]-[com.jfinal.kit.LogKit.error()]: Plugin start error: com.jfinal.plugin.activerecord.ActiveRecordPlugin. 
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'demoes'
+java.lang.RuntimeException: Plugin start error: com.jfinal.plugin.activerecord.ActiveRecordPlugin. 
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'demoes'
+	at com.jfinal.core.Config.startPlugins(Config.java:97)
+	at com.jfinal.core.Config.configJFinal(Config.java:49)
+	at com.jfinal.core.JFinal.init(JFinal.java:62)
+	at com.jfinal.core.JFinalFilter.init(JFinalFilter.java:49)
+	at org.eclipse.jetty.servlet.FilterHolder.doStart(FilterHolder.java:119)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:724)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:706)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:492)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at com.jfinal.server.JettyServer$1.onChange(JettyServer.java:108)
+	at com.jfinal.server.Scanner.compare(Scanner.java:88)
+	at com.jfinal.server.Scanner.working(Scanner.java:57)
+	at com.jfinal.server.Scanner.access$0(Scanner.java:55)
+	at com.jfinal.server.Scanner$1.run(Scanner.java:94)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+Caused by: com.jfinal.plugin.activerecord.ActiveRecordException: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'demoes'
+	at com.jfinal.plugin.activerecord.TableBuilder.build(TableBuilder.java:54)
+	at com.jfinal.plugin.activerecord.ActiveRecordPlugin.start(ActiveRecordPlugin.java:225)
+	at com.jfinal.core.Config.startPlugins(Config.java:88)
+	... 18 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'demoes'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1052)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4096)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4028)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:951)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:4600)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1328)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2395)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2428)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2213)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:797)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:389)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:305)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:148)
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:786)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1360)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1414)
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:602)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:876)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:872)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:97)
+	at com.jfinal.plugin.activerecord.TableBuilder.build(TableBuilder.java:42)
+	... 20 more
+
+2016-01-23 13:24:36
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-23 13:24:50
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-23 13:24:51
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-23 13:25:02
+[ERROR]-[Thread: qtp616765457-22]-[com.jfinal.core.ActionHandler.handle()]: /admin
+java.lang.ClassCastException: java.lang.Long cannot be cast to java.lang.Integer
+	at com.jfinal.plugin.activerecord.DbPro.queryInt(DbPro.java:174)
+	at com.jfinal.plugin.activerecord.Db.queryInt(Db.java:106)
+	at com.aotimes.yy.demo.act.LoginAct.admin(LoginAct.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:73)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:74)
+	at com.jfinal.plugin.druid.DruidStatViewHandler.handle(DruidStatViewHandler.java:75)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:744)
+
+2016-01-23 13:25:16
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-23 13:25:16
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-23 13:27:02
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-23 13:27:02
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-23 13:27:17
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-23 13:33:54
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-23 16:09:51
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-23 16:12:22
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-23 16:12:23
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-23 16:12:42
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-23 16:12:43
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-23 16:13:03
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-23 16:13:03
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-23 16:13:33
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-23 16:24:39
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-23 16:31:31
+[WARN]-[Thread: qtp1546904284-20]-[com.jfinal.core.ActionHandler.handle()]: 404 Action Not Found: //admin/projectTable
+
+2016-01-23 16:32:08
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-23 16:32:09
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-23 16:32:23
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-23 16:32:24
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-23 16:32:43
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-23 16:32:44
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-23 16:32:48
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-23 16:32:49
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-23 16:33:04
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-23 16:33:04
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-23 16:33:06
+[DEBUG]-[Thread: qtp1546904284-20]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 16:33:06
+[DEBUG]-[Thread: qtp1546904284-20]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-23 16:33:06
+[DEBUG]-[Thread: qtp1546904284-20]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}}]]
+
+2016-01-23 16:33:06
+[DEBUG]-[Thread: qtp1546904284-20]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 16:34:24
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-23 16:34:25
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-23 16:34:50
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-23 16:34:50
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-23 16:36:56
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-23 16:36:56
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-23 16:38:42
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-23 16:38:42
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-23 16:38:52
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-23 16:38:53
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-23 16:39:27
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-23 16:39:33
+[DEBUG]-[Thread: qtp1318200048-18]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 16:39:33
+[DEBUG]-[Thread: qtp1318200048-18]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-23 16:39:33
+[DEBUG]-[Thread: qtp1318200048-18]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[[{"columnNames":["createtime","progress","content","id","name"],"columnValues":["2016-01-23 00:00:00",0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":"2016-01-23 00:00:00","progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":["2016-01-28 00:00:00",0,"广州电力","2","广州电力"],"columns":{"createtime":"2016-01-28 00:00:00","progress":0,"content":"广州电力","id":"2","name":"广州电力"}}]]
+
+2016-01-23 16:39:33
+[DEBUG]-[Thread: qtp1318200048-18]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 16:40:47
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-23 16:40:48
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-23 16:40:52
+[DEBUG]-[Thread: qtp1318200048-18]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 16:40:52
+[DEBUG]-[Thread: qtp1318200048-18]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-23 16:40:52
+[DEBUG]-[Thread: qtp1318200048-18]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[[{"columnNames":["createtime","progress","content","id","name"],"columnValues":["2016-01-23 00:00:00",0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":"2016-01-23 00:00:00","progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":["2016-01-28 00:00:00",0,"广州电力","2","广州电力"],"columns":{"createtime":"2016-01-28 00:00:00","progress":0,"content":"广州电力","id":"2","name":"广州电力"}}]]
+
+2016-01-23 16:40:52
+[DEBUG]-[Thread: qtp1318200048-18]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 16:42:54
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-23 16:42:54
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-23 16:43:09
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-23 16:43:09
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-23 16:43:14
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-23 16:43:14
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-23 16:43:29
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-23 16:43:30
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-23 16:43:59
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-23 16:44:00
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-23 16:44:04
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-23 16:44:05
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-23 16:44:45
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-23 16:44:45
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-23 16:44:55
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-23 16:44:55
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-23 16:45:00
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-23 16:45:01
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-23 16:45:05
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-23 16:48:32
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-23 16:48:41
+[DEBUG]-[Thread: qtp616765457-26]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 16:48:41
+[DEBUG]-[Thread: qtp616765457-26]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-23 16:48:41
+[DEBUG]-[Thread: qtp616765457-26]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}}]]
+
+2016-01-23 16:48:41
+[DEBUG]-[Thread: qtp616765457-26]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 16:49:57
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-23 16:49:57
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-23 16:50:12
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-23 16:50:12
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-23 16:50:17
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-23 16:50:17
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-23 16:50:52
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-23 16:50:53
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-23 16:50:57
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-23 16:50:58
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-23 16:51:03
+[DEBUG]-[Thread: qtp616765457-42]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 16:51:03
+[DEBUG]-[Thread: qtp616765457-42]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-23 16:51:03
+[DEBUG]-[Thread: qtp616765457-42]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}}]]
+
+2016-01-23 16:51:03
+[DEBUG]-[Thread: qtp616765457-42]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 16:51:33
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-23 16:51:33
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-23 16:51:48
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-23 16:51:48
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-23 16:51:58
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-23 16:51:59
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-23 16:52:02
+[DEBUG]-[Thread: qtp616765457-26]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 16:52:02
+[DEBUG]-[Thread: qtp616765457-26]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-23 16:52:02
+[DEBUG]-[Thread: qtp616765457-26]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:["[{\"columnNames\":[\"createtime\",\"progress\",\"content\",\"id\",\"name\"],\"columnValues\":[1453478400000,0,\"内蒙电力\",\"1\",\"内蒙电力\"],\"columns\":{\"createtime\":1453478400000,\"progress\":0,\"content\":\"内蒙电力\",\"id\":\"1\",\"name\":\"内蒙电力\"}},{\"columnNames\":[\"createtime\",\"progress\",\"content\",\"id\",\"name\"],\"columnValues\":[1453910400000,0,\"广州电力\",\"2\",\"广州电力\"],\"columns\":{\"createtime\":1453910400000,\"progress\":0,\"content\":\"广州电力\",\"id\":\"2\",\"name\":\"广州电力\"}}]"]
+
+2016-01-23 16:52:02
+[DEBUG]-[Thread: qtp616765457-26]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 16:52:54
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-23 16:52:54
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-23 16:53:24
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-23 16:53:28
+[DEBUG]-[Thread: qtp1318200048-19]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 16:53:28
+[DEBUG]-[Thread: qtp1318200048-19]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-23 16:53:28
+[DEBUG]-[Thread: qtp1318200048-19]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:["[{\"columnNames\":[\"createtime\",\"progress\",\"content\",\"id\",\"name\"],\"columnValues\":[1453478400000,0,\"内蒙电力\",\"1\",\"内蒙电力\"],\"columns\":{\"createtime\":1453478400000,\"progress\":0,\"content\":\"内蒙电力\",\"id\":\"1\",\"name\":\"内蒙电力\"}},{\"columnNames\":[\"createtime\",\"progress\",\"content\",\"id\",\"name\"],\"columnValues\":[1453910400000,0,\"广州电力\",\"2\",\"广州电力\"],\"columns\":{\"createtime\":1453910400000,\"progress\":0,\"content\":\"广州电力\",\"id\":\"2\",\"name\":\"广州电力\"}}]"]
+
+2016-01-23 16:53:28
+[DEBUG]-[Thread: qtp1318200048-19]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 16:57:20
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-23 16:57:21
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-23 16:57:31
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-23 16:57:31
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-23 16:57:40
+[DEBUG]-[Thread: qtp1318200048-20]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 16:57:40
+[DEBUG]-[Thread: qtp1318200048-20]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-23 16:57:40
+[DEBUG]-[Thread: qtp1318200048-20]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[[{"columnNames":["createtime","progress","content","id","name"],"columnValues":["2016-01-23 00:00:00",0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":"2016-01-23 00:00:00","progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":["2016-01-28 00:00:00",0,"广州电力","2","广州电力"],"columns":{"createtime":"2016-01-28 00:00:00","progress":0,"content":"广州电力","id":"2","name":"广州电力"}}]]
+
+2016-01-23 16:57:40
+[DEBUG]-[Thread: qtp1318200048-20]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 16:58:41
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-23 16:58:42
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-23 16:59:19
+[DEBUG]-[Thread: qtp1318200048-18]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 16:59:19
+[DEBUG]-[Thread: qtp1318200048-18]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-23 16:59:19
+[DEBUG]-[Thread: qtp1318200048-18]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}}]]
+
+2016-01-23 16:59:19
+[DEBUG]-[Thread: qtp1318200048-18]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 17:04:40
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-23 17:04:40
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-23 17:04:50
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-23 17:04:50
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-23 17:08:37
+[DEBUG]-[Thread: qtp1318200048-20]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 17:08:37
+[DEBUG]-[Thread: qtp1318200048-20]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-23 17:08:37
+[DEBUG]-[Thread: qtp1318200048-20]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}}]]
+
+2016-01-23 17:08:37
+[DEBUG]-[Thread: qtp1318200048-20]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 17:09:55
+[DEBUG]-[Thread: qtp1318200048-20]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 17:09:55
+[DEBUG]-[Thread: qtp1318200048-20]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-23 17:09:55
+[DEBUG]-[Thread: qtp1318200048-20]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}}]]
+
+2016-01-23 17:09:55
+[DEBUG]-[Thread: qtp1318200048-20]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 17:11:08
+[DEBUG]-[Thread: qtp1318200048-21]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 17:11:08
+[DEBUG]-[Thread: qtp1318200048-21]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-23 17:11:08
+[DEBUG]-[Thread: qtp1318200048-21]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}}]]
+
+2016-01-23 17:11:08
+[DEBUG]-[Thread: qtp1318200048-21]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 17:42:25
+[DEBUG]-[Thread: qtp1318200048-21]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 17:42:25
+[DEBUG]-[Thread: qtp1318200048-21]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-23 17:42:25
+[DEBUG]-[Thread: qtp1318200048-21]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}}]]
+
+2016-01-23 17:42:25
+[DEBUG]-[Thread: qtp1318200048-21]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 17:43:14
+[DEBUG]-[Thread: qtp1318200048-37]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 17:43:14
+[DEBUG]-[Thread: qtp1318200048-37]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-23 17:43:14
+[DEBUG]-[Thread: qtp1318200048-37]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}}]]
+
+2016-01-23 17:43:14
+[DEBUG]-[Thread: qtp1318200048-37]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 17:44:11
+[DEBUG]-[Thread: qtp1318200048-18]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 17:44:11
+[DEBUG]-[Thread: qtp1318200048-18]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-23 17:44:11
+[DEBUG]-[Thread: qtp1318200048-18]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}}]]
+
+2016-01-23 17:44:11
+[DEBUG]-[Thread: qtp1318200048-18]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 17:46:51
+[DEBUG]-[Thread: qtp1318200048-37]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 17:46:51
+[DEBUG]-[Thread: qtp1318200048-37]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-23 17:46:51
+[DEBUG]-[Thread: qtp1318200048-37]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}}]]
+
+2016-01-23 17:46:51
+[DEBUG]-[Thread: qtp1318200048-37]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 17:47:51
+[DEBUG]-[Thread: qtp1318200048-18]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 17:47:51
+[DEBUG]-[Thread: qtp1318200048-18]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-23 17:47:51
+[DEBUG]-[Thread: qtp1318200048-18]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}}]]
+
+2016-01-23 17:47:51
+[DEBUG]-[Thread: qtp1318200048-18]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 17:48:34
+[DEBUG]-[Thread: qtp1318200048-37]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 17:48:34
+[DEBUG]-[Thread: qtp1318200048-37]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-23 17:48:34
+[DEBUG]-[Thread: qtp1318200048-37]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}}]]
+
+2016-01-23 17:48:34
+[DEBUG]-[Thread: qtp1318200048-37]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 17:48:54
+[DEBUG]-[Thread: qtp1318200048-18]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 17:48:54
+[DEBUG]-[Thread: qtp1318200048-18]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-23 17:48:54
+[DEBUG]-[Thread: qtp1318200048-18]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}}]]
+
+2016-01-23 17:48:54
+[DEBUG]-[Thread: qtp1318200048-18]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 17:49:08
+[DEBUG]-[Thread: qtp1318200048-20]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 17:49:08
+[DEBUG]-[Thread: qtp1318200048-20]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-23 17:49:08
+[DEBUG]-[Thread: qtp1318200048-20]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}}]]
+
+2016-01-23 17:49:08
+[DEBUG]-[Thread: qtp1318200048-20]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 17:49:32
+[DEBUG]-[Thread: qtp1318200048-38]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 17:49:32
+[DEBUG]-[Thread: qtp1318200048-38]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-23 17:49:32
+[DEBUG]-[Thread: qtp1318200048-38]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}}]]
+
+2016-01-23 17:49:32
+[DEBUG]-[Thread: qtp1318200048-38]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 17:50:29
+[DEBUG]-[Thread: qtp1318200048-18]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 17:50:29
+[DEBUG]-[Thread: qtp1318200048-18]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-23 17:50:29
+[DEBUG]-[Thread: qtp1318200048-18]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}}]]
+
+2016-01-23 17:50:29
+[DEBUG]-[Thread: qtp1318200048-18]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 17:51:00
+[DEBUG]-[Thread: qtp1318200048-20]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 17:51:00
+[DEBUG]-[Thread: qtp1318200048-20]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-23 17:51:00
+[DEBUG]-[Thread: qtp1318200048-20]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}}]]
+
+2016-01-23 17:51:00
+[DEBUG]-[Thread: qtp1318200048-20]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 17:51:23
+[DEBUG]-[Thread: qtp1318200048-37]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 17:51:23
+[DEBUG]-[Thread: qtp1318200048-37]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-23 17:51:23
+[DEBUG]-[Thread: qtp1318200048-37]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}}]]
+
+2016-01-23 17:51:23
+[DEBUG]-[Thread: qtp1318200048-37]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 17:52:07
+[DEBUG]-[Thread: qtp1318200048-37]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 17:52:07
+[DEBUG]-[Thread: qtp1318200048-37]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-23 17:52:07
+[DEBUG]-[Thread: qtp1318200048-37]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}}]]
+
+2016-01-23 17:52:07
+[DEBUG]-[Thread: qtp1318200048-37]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 17:52:40
+[DEBUG]-[Thread: qtp1318200048-18]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 17:52:40
+[DEBUG]-[Thread: qtp1318200048-18]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-23 17:52:40
+[DEBUG]-[Thread: qtp1318200048-18]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}}]]
+
+2016-01-23 17:52:40
+[DEBUG]-[Thread: qtp1318200048-18]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 17:54:06
+[DEBUG]-[Thread: qtp1318200048-38]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 17:54:06
+[DEBUG]-[Thread: qtp1318200048-38]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-23 17:54:06
+[DEBUG]-[Thread: qtp1318200048-38]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}}]]
+
+2016-01-23 17:54:06
+[DEBUG]-[Thread: qtp1318200048-38]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 17:55:55
+[DEBUG]-[Thread: qtp1318200048-37]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 17:55:55
+[DEBUG]-[Thread: qtp1318200048-37]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-23 17:55:55
+[DEBUG]-[Thread: qtp1318200048-37]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}}]]
+
+2016-01-23 17:55:55
+[DEBUG]-[Thread: qtp1318200048-37]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 17:56:25
+[DEBUG]-[Thread: qtp1318200048-37]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 17:56:25
+[DEBUG]-[Thread: qtp1318200048-37]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-23 17:56:25
+[DEBUG]-[Thread: qtp1318200048-37]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}}]]
+
+2016-01-23 17:56:25
+[DEBUG]-[Thread: qtp1318200048-37]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 18:00:40
+[DEBUG]-[Thread: qtp1318200048-18]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 18:00:40
+[DEBUG]-[Thread: qtp1318200048-18]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-23 18:00:40
+[DEBUG]-[Thread: qtp1318200048-18]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}}]]
+
+2016-01-23 18:00:40
+[DEBUG]-[Thread: qtp1318200048-18]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 18:00:42
+[DEBUG]-[Thread: qtp1318200048-37]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 18:00:42
+[DEBUG]-[Thread: qtp1318200048-37]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-23 18:00:42
+[DEBUG]-[Thread: qtp1318200048-37]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}}]]
+
+2016-01-23 18:00:42
+[DEBUG]-[Thread: qtp1318200048-37]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 18:01:01
+[DEBUG]-[Thread: qtp1318200048-18]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 18:01:01
+[DEBUG]-[Thread: qtp1318200048-18]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-23 18:01:01
+[DEBUG]-[Thread: qtp1318200048-18]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}}]]
+
+2016-01-23 18:01:01
+[DEBUG]-[Thread: qtp1318200048-18]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 18:05:02
+[DEBUG]-[Thread: qtp1318200048-38]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 18:05:02
+[DEBUG]-[Thread: qtp1318200048-38]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-23 18:05:02
+[DEBUG]-[Thread: qtp1318200048-38]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}}]]
+
+2016-01-23 18:05:02
+[DEBUG]-[Thread: qtp1318200048-38]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 18:10:32
+[DEBUG]-[Thread: qtp1318200048-38]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 18:10:32
+[DEBUG]-[Thread: qtp1318200048-38]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-23 18:10:32
+[DEBUG]-[Thread: qtp1318200048-38]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}}]]
+
+2016-01-23 18:10:32
+[DEBUG]-[Thread: qtp1318200048-38]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 18:10:36
+[DEBUG]-[Thread: qtp1318200048-38]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 18:10:36
+[DEBUG]-[Thread: qtp1318200048-38]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-23 18:10:36
+[DEBUG]-[Thread: qtp1318200048-38]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}}]]
+
+2016-01-23 18:10:36
+[DEBUG]-[Thread: qtp1318200048-38]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 18:15:27
+[DEBUG]-[Thread: qtp1318200048-20]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 18:15:27
+[DEBUG]-[Thread: qtp1318200048-20]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-23 18:15:27
+[DEBUG]-[Thread: qtp1318200048-20]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}}]]
+
+2016-01-23 18:15:27
+[DEBUG]-[Thread: qtp1318200048-20]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 18:16:03
+[DEBUG]-[Thread: qtp1318200048-37]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 18:16:03
+[DEBUG]-[Thread: qtp1318200048-37]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-23 18:16:03
+[DEBUG]-[Thread: qtp1318200048-37]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}}]]
+
+2016-01-23 18:16:03
+[DEBUG]-[Thread: qtp1318200048-37]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 18:17:40
+[DEBUG]-[Thread: qtp1318200048-37]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-23 18:17:40
+[DEBUG]-[Thread: qtp1318200048-37]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-23 18:17:40
+[DEBUG]-[Thread: qtp1318200048-37]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}}]]
+
+2016-01-23 18:17:40
+[DEBUG]-[Thread: qtp1318200048-37]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 14:00:03
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-25 14:00:37
+[DEBUG]-[Thread: qtp1836639494-22]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 14:00:37
+[DEBUG]-[Thread: qtp1836639494-22]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-25 14:00:37
+[DEBUG]-[Thread: qtp1836639494-22]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}}]]
+
+2016-01-25 14:00:37
+[DEBUG]-[Thread: qtp1836639494-22]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 14:01:48
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-25 14:01:49
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-25 14:02:14
+[DEBUG]-[Thread: qtp1836639494-23]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 14:02:14
+[DEBUG]-[Thread: qtp1836639494-23]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-25 14:02:14
+[DEBUG]-[Thread: qtp1836639494-23]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}}]]
+
+2016-01-25 14:02:14
+[DEBUG]-[Thread: qtp1836639494-23]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 14:03:31
+[DEBUG]-[Thread: qtp1836639494-21]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 14:03:31
+[DEBUG]-[Thread: qtp1836639494-21]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-25 14:03:31
+[DEBUG]-[Thread: qtp1836639494-21]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453132800000,100,"交通银行香港分行","3","港交行"],"columns":{"createtime":1453132800000,"progress":100,"content":"交通银行香港分行","id":"3","name":"港交行"}}]]
+
+2016-01-25 14:03:31
+[DEBUG]-[Thread: qtp1836639494-21]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 14:36:51
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-25 14:36:55
+[DEBUG]-[Thread: qtp36269085-24]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 14:36:55
+[DEBUG]-[Thread: qtp36269085-24]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-25 14:36:55
+[DEBUG]-[Thread: qtp36269085-24]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453132800000,100,"交通银行香港分行","3","港交行"],"columns":{"createtime":1453132800000,"progress":100,"content":"交通银行香港分行","id":"3","name":"港交行"}}]]
+
+2016-01-25 14:36:55
+[DEBUG]-[Thread: qtp36269085-24]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 14:37:12
+[DEBUG]-[Thread: qtp36269085-21]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 14:37:12
+[DEBUG]-[Thread: qtp36269085-21]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-25 14:37:12
+[DEBUG]-[Thread: qtp36269085-21]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453132800000,100,"交通银行香港分行","3","港交行"],"columns":{"createtime":1453132800000,"progress":100,"content":"交通银行香港分行","id":"3","name":"港交行"}}]]
+
+2016-01-25 14:37:12
+[DEBUG]-[Thread: qtp36269085-21]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 14:38:46
+[DEBUG]-[Thread: qtp36269085-26]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 14:38:46
+[DEBUG]-[Thread: qtp36269085-26]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-25 14:38:46
+[DEBUG]-[Thread: qtp36269085-26]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453132800000,100,"交通银行香港分行","3","港交行"],"columns":{"createtime":1453132800000,"progress":100,"content":"交通银行香港分行","id":"3","name":"港交行"}}]]
+
+2016-01-25 14:38:46
+[DEBUG]-[Thread: qtp36269085-26]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 14:38:47
+[DEBUG]-[Thread: qtp36269085-22]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 14:38:47
+[DEBUG]-[Thread: qtp36269085-22]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-25 14:38:47
+[DEBUG]-[Thread: qtp36269085-22]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453132800000,100,"交通银行香港分行","3","港交行"],"columns":{"createtime":1453132800000,"progress":100,"content":"交通银行香港分行","id":"3","name":"港交行"}}]]
+
+2016-01-25 14:38:47
+[DEBUG]-[Thread: qtp36269085-22]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 14:38:48
+[DEBUG]-[Thread: qtp36269085-26]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 14:38:48
+[DEBUG]-[Thread: qtp36269085-26]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-25 14:38:48
+[DEBUG]-[Thread: qtp36269085-26]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453132800000,100,"交通银行香港分行","3","港交行"],"columns":{"createtime":1453132800000,"progress":100,"content":"交通银行香港分行","id":"3","name":"港交行"}}]]
+
+2016-01-25 14:38:48
+[DEBUG]-[Thread: qtp36269085-26]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 14:38:49
+[DEBUG]-[Thread: qtp36269085-22]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 14:38:49
+[DEBUG]-[Thread: qtp36269085-22]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-25 14:38:49
+[DEBUG]-[Thread: qtp36269085-22]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453132800000,100,"交通银行香港分行","3","港交行"],"columns":{"createtime":1453132800000,"progress":100,"content":"交通银行香港分行","id":"3","name":"港交行"}}]]
+
+2016-01-25 14:38:49
+[DEBUG]-[Thread: qtp36269085-22]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 14:38:49
+[DEBUG]-[Thread: qtp36269085-23]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 14:38:49
+[DEBUG]-[Thread: qtp36269085-23]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-25 14:38:49
+[DEBUG]-[Thread: qtp36269085-23]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453132800000,100,"交通银行香港分行","3","港交行"],"columns":{"createtime":1453132800000,"progress":100,"content":"交通银行香港分行","id":"3","name":"港交行"}}]]
+
+2016-01-25 14:38:49
+[DEBUG]-[Thread: qtp36269085-23]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 14:38:49
+[DEBUG]-[Thread: qtp36269085-26]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 14:38:49
+[DEBUG]-[Thread: qtp36269085-26]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-25 14:38:49
+[DEBUG]-[Thread: qtp36269085-26]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453132800000,100,"交通银行香港分行","3","港交行"],"columns":{"createtime":1453132800000,"progress":100,"content":"交通银行香港分行","id":"3","name":"港交行"}}]]
+
+2016-01-25 14:38:49
+[DEBUG]-[Thread: qtp36269085-26]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 14:38:49
+[DEBUG]-[Thread: qtp36269085-22]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 14:38:49
+[DEBUG]-[Thread: qtp36269085-22]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-25 14:38:49
+[DEBUG]-[Thread: qtp36269085-22]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453132800000,100,"交通银行香港分行","3","港交行"],"columns":{"createtime":1453132800000,"progress":100,"content":"交通银行香港分行","id":"3","name":"港交行"}}]]
+
+2016-01-25 14:38:49
+[DEBUG]-[Thread: qtp36269085-22]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 14:39:21
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-25 14:39:22
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-25 15:15:07
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-25 15:15:13
+[DEBUG]-[Thread: qtp73471730-27]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 15:15:13
+[DEBUG]-[Thread: qtp73471730-27]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-25 15:15:13
+[DEBUG]-[Thread: qtp73471730-27]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453132800000,100,"交通银行香港分行","3","港交行"],"columns":{"createtime":1453132800000,"progress":100,"content":"交通银行香港分行","id":"3","name":"港交行"}}]]
+
+2016-01-25 15:15:13
+[DEBUG]-[Thread: qtp73471730-27]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 15:15:32
+[DEBUG]-[Thread: qtp73471730-22]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 15:15:32
+[DEBUG]-[Thread: qtp73471730-22]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-25 15:15:32
+[DEBUG]-[Thread: qtp73471730-22]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453132800000,100,"交通银行香港分行","3","港交行"],"columns":{"createtime":1453132800000,"progress":100,"content":"交通银行香港分行","id":"3","name":"港交行"}}]]
+
+2016-01-25 15:15:32
+[DEBUG]-[Thread: qtp73471730-22]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 15:16:12
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-25 15:16:13
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-25 15:16:17
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-25 15:16:18
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-25 15:16:27
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-25 15:16:28
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-25 15:16:33
+[DEBUG]-[Thread: qtp73471730-27]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 15:16:33
+[DEBUG]-[Thread: qtp73471730-27]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-25 15:16:33
+[DEBUG]-[Thread: qtp73471730-27]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[{"total":3,"tableDatas":[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453132800000,100,"交通银行香港分行","3","港交行"],"columns":{"createtime":1453132800000,"progress":100,"content":"交通银行香港分行","id":"3","name":"港交行"}}]}]
+
+2016-01-25 15:16:33
+[DEBUG]-[Thread: qtp73471730-27]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 15:16:58
+[DEBUG]-[Thread: qtp73471730-27]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 15:16:58
+[DEBUG]-[Thread: qtp73471730-27]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-25 15:16:58
+[DEBUG]-[Thread: qtp73471730-27]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[{"total":3,"tableDatas":[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453132800000,100,"交通银行香港分行","3","港交行"],"columns":{"createtime":1453132800000,"progress":100,"content":"交通银行香港分行","id":"3","name":"港交行"}}]}]
+
+2016-01-25 15:16:58
+[DEBUG]-[Thread: qtp73471730-27]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 15:16:59
+[DEBUG]-[Thread: qtp73471730-27]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 15:16:59
+[DEBUG]-[Thread: qtp73471730-27]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-25 15:16:59
+[DEBUG]-[Thread: qtp73471730-27]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[{"total":3,"tableDatas":[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453132800000,100,"交通银行香港分行","3","港交行"],"columns":{"createtime":1453132800000,"progress":100,"content":"交通银行香港分行","id":"3","name":"港交行"}}]}]
+
+2016-01-25 15:16:59
+[DEBUG]-[Thread: qtp73471730-27]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 15:17:50
+[DEBUG]-[Thread: qtp73471730-25]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 15:17:50
+[DEBUG]-[Thread: qtp73471730-25]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-25 15:18:03
+[DEBUG]-[Thread: qtp73471730-25]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[{"total":3,"tableDatas":[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453132800000,100,"交通银行香港分行","3","港交行"],"columns":{"createtime":1453132800000,"progress":100,"content":"交通银行香港分行","id":"3","name":"港交行"}}]}]
+
+2016-01-25 15:18:19
+[DEBUG]-[Thread: qtp73471730-25]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 15:21:22
+[DEBUG]-[Thread: qtp73471730-37]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 15:21:22
+[DEBUG]-[Thread: qtp73471730-37]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-25 15:21:22
+[DEBUG]-[Thread: qtp73471730-37]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[{"total":3,"tableDatas":[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453132800000,100,"交通银行香港分行","3","港交行"],"columns":{"createtime":1453132800000,"progress":100,"content":"交通银行香港分行","id":"3","name":"港交行"}}]}]
+
+2016-01-25 15:21:22
+[DEBUG]-[Thread: qtp73471730-37]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 15:21:42
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-25 15:21:45
+[DEBUG]-[Thread: qtp36269085-23]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 15:21:45
+[DEBUG]-[Thread: qtp36269085-23]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-25 15:21:45
+[DEBUG]-[Thread: qtp36269085-23]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[{"total":3,"tableDatas":[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453132800000,100,"交通银行香港分行","3","港交行"],"columns":{"createtime":1453132800000,"progress":100,"content":"交通银行香港分行","id":"3","name":"港交行"}}]}]
+
+2016-01-25 15:21:45
+[DEBUG]-[Thread: qtp36269085-23]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 15:41:30
+[DEBUG]-[Thread: qtp36269085-21]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 15:41:30
+[DEBUG]-[Thread: qtp36269085-21]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-25 15:41:30
+[DEBUG]-[Thread: qtp36269085-21]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[{"total":3,"tableDatas":[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453132800000,100,"交通银行香港分行","3","港交行"],"columns":{"createtime":1453132800000,"progress":100,"content":"交通银行香港分行","id":"3","name":"港交行"}}]}]
+
+2016-01-25 15:41:30
+[DEBUG]-[Thread: qtp36269085-21]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 15:41:34
+[DEBUG]-[Thread: qtp36269085-26]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 15:41:34
+[DEBUG]-[Thread: qtp36269085-26]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-25 15:41:34
+[DEBUG]-[Thread: qtp36269085-26]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[{"total":3,"tableDatas":[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453132800000,100,"交通银行香港分行","3","港交行"],"columns":{"createtime":1453132800000,"progress":100,"content":"交通银行香港分行","id":"3","name":"港交行"}}]}]
+
+2016-01-25 15:41:34
+[DEBUG]-[Thread: qtp36269085-26]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 15:42:09
+[DEBUG]-[Thread: qtp36269085-27]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 15:42:09
+[DEBUG]-[Thread: qtp36269085-27]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-25 15:42:09
+[DEBUG]-[Thread: qtp36269085-27]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[{"total":3,"tableDatas":[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453132800000,100,"交通银行香港分行","3","港交行"],"columns":{"createtime":1453132800000,"progress":100,"content":"交通银行香港分行","id":"3","name":"港交行"}}]}]
+
+2016-01-25 15:42:09
+[DEBUG]-[Thread: qtp36269085-27]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 15:42:14
+[DEBUG]-[Thread: qtp36269085-26]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 15:42:14
+[DEBUG]-[Thread: qtp36269085-26]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-25 15:42:14
+[DEBUG]-[Thread: qtp36269085-26]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[{"total":3,"tableDatas":[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453132800000,100,"交通银行香港分行","3","港交行"],"columns":{"createtime":1453132800000,"progress":100,"content":"交通银行香港分行","id":"3","name":"港交行"}}]}]
+
+2016-01-25 15:42:14
+[DEBUG]-[Thread: qtp36269085-26]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 15:43:19
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-25 15:43:19
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-25 15:43:27
+[DEBUG]-[Thread: qtp36269085-26]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 15:43:27
+[DEBUG]-[Thread: qtp36269085-26]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-25 15:43:27
+[DEBUG]-[Thread: qtp36269085-26]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[{"total":3,"tableDatas":[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453132800000,100,"交通银行香港分行","3","港交行"],"columns":{"createtime":1453132800000,"progress":100,"content":"交通银行香港分行","id":"3","name":"港交行"}}]}]
+
+2016-01-25 15:43:27
+[DEBUG]-[Thread: qtp36269085-26]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 15:44:35
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-25 15:44:36
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-25 15:44:40
+[DEBUG]-[Thread: qtp36269085-35]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 15:44:40
+[DEBUG]-[Thread: qtp36269085-35]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-25 15:44:40
+[DEBUG]-[Thread: qtp36269085-35]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[{"total":3,"tableDatas":[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453132800000,100,"交通银行香港分行","3","港交行"],"columns":{"createtime":1453132800000,"progress":100,"content":"交通银行香港分行","id":"3","name":"港交行"}}]}]
+
+2016-01-25 15:44:40
+[DEBUG]-[Thread: qtp36269085-35]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 15:45:49
+[DEBUG]-[Thread: qtp36269085-36]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 15:45:49
+[DEBUG]-[Thread: qtp36269085-36]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-25 15:45:49
+[DEBUG]-[Thread: qtp36269085-36]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[{"total":3,"tableDatas":[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453132800000,100,"交通银行香港分行","3","港交行"],"columns":{"createtime":1453132800000,"progress":100,"content":"交通银行香港分行","id":"3","name":"港交行"}}]}]
+
+2016-01-25 15:45:49
+[DEBUG]-[Thread: qtp36269085-36]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 15:50:38
+[DEBUG]-[Thread: qtp36269085-37]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 15:50:38
+[DEBUG]-[Thread: qtp36269085-37]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-25 15:50:38
+[DEBUG]-[Thread: qtp36269085-37]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[{"total":3,"tableDatas":[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453132800000,100,"交通银行香港分行","3","港交行"],"columns":{"createtime":1453132800000,"progress":100,"content":"交通银行香港分行","id":"3","name":"港交行"}}]}]
+
+2016-01-25 15:50:38
+[DEBUG]-[Thread: qtp36269085-37]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 15:51:32
+[DEBUG]-[Thread: qtp36269085-26]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 15:51:32
+[DEBUG]-[Thread: qtp36269085-26]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-25 15:51:32
+[DEBUG]-[Thread: qtp36269085-26]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[{"total":3,"tableDatas":[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453132800000,100,"交通银行香港分行","3","港交行"],"columns":{"createtime":1453132800000,"progress":100,"content":"交通银行香港分行","id":"3","name":"港交行"}}]}]
+
+2016-01-25 15:51:32
+[DEBUG]-[Thread: qtp36269085-26]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 15:51:46
+[DEBUG]-[Thread: qtp36269085-21]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 15:51:47
+[DEBUG]-[Thread: qtp36269085-21]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-25 15:51:47
+[DEBUG]-[Thread: qtp36269085-21]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[{"total":3,"tableDatas":[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453132800000,100,"交通银行香港分行","3","港交行"],"columns":{"createtime":1453132800000,"progress":100,"content":"交通银行香港分行","id":"3","name":"港交行"}}]}]
+
+2016-01-25 15:51:47
+[DEBUG]-[Thread: qtp36269085-21]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 15:52:03
+[DEBUG]-[Thread: qtp36269085-26]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 15:52:03
+[DEBUG]-[Thread: qtp36269085-26]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-25 15:52:03
+[DEBUG]-[Thread: qtp36269085-26]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[{"total":3,"tableDatas":[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453132800000,100,"交通银行香港分行","3","港交行"],"columns":{"createtime":1453132800000,"progress":100,"content":"交通银行香港分行","id":"3","name":"港交行"}}]}]
+
+2016-01-25 15:52:03
+[DEBUG]-[Thread: qtp36269085-26]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 16:47:07
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-25 16:47:23
+[DEBUG]-[Thread: qtp918128649-22]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 16:47:23
+[DEBUG]-[Thread: qtp918128649-22]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-25 16:47:23
+[DEBUG]-[Thread: qtp918128649-22]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]: 传入ＳＱＬ:
+
+2016-01-25 16:47:23
+[DEBUG]-[Thread: qtp918128649-22]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]:  select * from t_project 
+
+2016-01-25 16:47:23
+[DEBUG]-[Thread: qtp918128649-22]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]: 转换后ＳＱＬ:
+
+2016-01-25 16:47:23
+[DEBUG]-[Thread: qtp918128649-22]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]:  select count(*) from (  select * from t_project  ) tab limit null, null
+
+2016-01-25 16:47:23
+[ERROR]-[Thread: qtp918128649-22]-[com.jfinal.core.ActionHandler.handle()]: /admin/projectTable
+com.jfinal.plugin.activerecord.ActiveRecordException: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'null, null' at line 1
+	at com.jfinal.plugin.activerecord.DbPro.find(DbPro.java:315)
+	at com.jfinal.plugin.activerecord.DbPro.find(DbPro.java:326)
+	at com.jfinal.plugin.activerecord.Db.find(Db.java:233)
+	at com.aotimes.yy.demo.act.BaseAct.getGridData(BaseAct.java:40)
+	at com.aotimes.yy.demo.act.AdminAct.projectTable(AdminAct.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:73)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:74)
+	at com.jfinal.plugin.druid.DruidStatViewHandler.handle(DruidStatViewHandler.java:75)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'null, null' at line 1
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1052)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4096)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4028)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2490)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2651)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2683)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2144)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2310)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_executeQuery(FilterChainImpl.java:2714)
+	at com.alibaba.druid.wall.WallFilter.preparedStatement_executeQuery(WallFilter.java:604)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_executeQuery(FilterChainImpl.java:2711)
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_executeQuery(FilterEventAdapter.java:465)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_executeQuery(FilterChainImpl.java:2711)
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.executeQuery(PreparedStatementProxyImpl.java:132)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.executeQuery(DruidPooledPreparedStatement.java:227)
+	at com.jfinal.plugin.activerecord.DbPro.find(DbPro.java:300)
+	at com.jfinal.plugin.activerecord.DbPro.find(DbPro.java:313)
+	... 35 more
+
+2016-01-25 16:48:11
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-25 16:48:12
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-25 16:48:16
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-25 16:48:17
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-25 16:48:21
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-25 16:48:22
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-25 16:48:26
+[DEBUG]-[Thread: qtp918128649-20]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 16:48:26
+[DEBUG]-[Thread: qtp918128649-20]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-25 16:48:26
+[DEBUG]-[Thread: qtp918128649-20]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]: 传入ＳＱＬ:
+
+2016-01-25 16:48:26
+[DEBUG]-[Thread: qtp918128649-20]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]:  select * from t_project 
+
+2016-01-25 16:48:26
+[DEBUG]-[Thread: qtp918128649-20]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]: 转换后ＳＱＬ:
+
+2016-01-25 16:48:26
+[DEBUG]-[Thread: qtp918128649-20]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]:  select count(*) from (  select * from t_project  ) tab limit 1, 10
+
+2016-01-25 16:48:26
+[DEBUG]-[Thread: qtp918128649-20]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[{"total":3,"tableDatas":[]}]
+
+2016-01-25 16:48:26
+[DEBUG]-[Thread: qtp918128649-20]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 16:49:02
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-25 16:49:02
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-25 16:49:04
+[DEBUG]-[Thread: qtp918128649-20]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 16:49:04
+[DEBUG]-[Thread: qtp918128649-20]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-25 16:49:04
+[DEBUG]-[Thread: qtp918128649-20]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]: 传入ＳＱＬ:
+
+2016-01-25 16:49:04
+[DEBUG]-[Thread: qtp918128649-20]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]:  select * from t_project 
+
+2016-01-25 16:49:04
+[DEBUG]-[Thread: qtp918128649-20]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]: 转换后ＳＱＬ:
+
+2016-01-25 16:49:04
+[DEBUG]-[Thread: qtp918128649-20]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]:  select count(*) from (  select * from t_project  ) tab limit 0, 10
+
+2016-01-25 16:49:04
+[DEBUG]-[Thread: qtp918128649-20]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[{"total":3,"tableDatas":[{"columnNames":["count(*)"],"columnValues":[3],"columns":{"count(*)":3}}]}]
+
+2016-01-25 16:49:04
+[DEBUG]-[Thread: qtp918128649-20]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 16:49:47
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-25 16:49:48
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-25 16:49:52
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-25 16:49:53
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-25 16:50:23
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-25 16:50:23
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-25 16:50:33
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-25 16:50:33
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-25 16:50:38
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-25 16:50:38
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-25 16:50:43
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-25 16:50:44
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-25 16:50:44
+[ERROR]-[Thread: JFinal-Scanner]-[com.jfinal.core.Config.startPlugins()]: Plugin start error: com.jfinal.plugin.activerecord.ActiveRecordPlugin. 
+java.sql.SQLException: Error
+com.jfinal.plugin.activerecord.ActiveRecordException: java.sql.SQLException: Error
+	at com.jfinal.plugin.activerecord.TableBuilder.build(TableBuilder.java:54)
+	at com.jfinal.plugin.activerecord.ActiveRecordPlugin.start(ActiveRecordPlugin.java:225)
+	at com.jfinal.core.Config.startPlugins(Config.java:88)
+	at com.jfinal.core.Config.configJFinal(Config.java:49)
+	at com.jfinal.core.JFinal.init(JFinal.java:62)
+	at com.jfinal.core.JFinalFilter.init(JFinalFilter.java:49)
+	at org.eclipse.jetty.servlet.FilterHolder.doStart(FilterHolder.java:119)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:724)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:706)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:492)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at com.jfinal.server.JettyServer$1.onChange(JettyServer.java:108)
+	at com.jfinal.server.Scanner.compare(Scanner.java:88)
+	at com.jfinal.server.Scanner.working(Scanner.java:57)
+	at com.jfinal.server.Scanner.access$0(Scanner.java:55)
+	at com.jfinal.server.Scanner$1.run(Scanner.java:94)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+Caused by: java.sql.SQLException: Error
+	at com.alibaba.druid.pool.DruidDataSource.handleConnectionException(DruidDataSource.java:1116)
+	at com.alibaba.druid.pool.DruidPooledConnection.handleException(DruidPooledConnection.java:127)
+	at com.alibaba.druid.pool.DruidPooledStatement.checkException(DruidPooledStatement.java:68)
+	at com.alibaba.druid.pool.DruidPooledStatement.executeQuery(DruidPooledStatement.java:154)
+	at com.jfinal.plugin.activerecord.TableBuilder.doBuild(TableBuilder.java:70)
+	at com.jfinal.plugin.activerecord.TableBuilder.build(TableBuilder.java:46)
+	... 20 more
+Caused by: java.lang.OutOfMemoryError: PermGen space
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:449)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:71)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at org.eclipse.jetty.webapp.WebAppClassLoader.loadClass(WebAppClassLoader.java:421)
+	at com.jfinal.server.JFinalClassLoader.loadClass(JFinalClassLoader.java:53)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:449)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:71)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at org.eclipse.jetty.webapp.WebAppClassLoader.loadClass(WebAppClassLoader.java:421)
+	at com.jfinal.server.JFinalClassLoader.loadClass(JFinalClassLoader.java:53)
+	at com.alibaba.druid.sql.visitor.ParameterizedOutputVisitorUtils.createParameterizedOutputVisitor(ParameterizedOutputVisitorUtils.java:77)
+	at com.alibaba.druid.sql.visitor.ParameterizedOutputVisitorUtils.parameterize(ParameterizedOutputVisitorUtils.java:61)
+	at com.alibaba.druid.wall.WallProvider.addWhiteSql(WallProvider.java:252)
+	at com.alibaba.druid.wall.WallProvider.checkInternal(WallProvider.java:686)
+	at com.alibaba.druid.wall.WallProvider.check(WallProvider.java:586)
+	at com.alibaba.druid.wall.WallFilter.check(WallFilter.java:694)
+	at com.alibaba.druid.wall.WallFilter.statement_executeQuery(WallFilter.java:491)
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2360)
+	at com.alibaba.druid.filter.FilterAdapter.statement_executeQuery(FilterAdapter.java:2482)
+	at com.alibaba.druid.filter.FilterEventAdapter.statement_executeQuery(FilterEventAdapter.java:302)
+
+2016-01-25 16:51:59
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-25 16:52:04
+[DEBUG]-[Thread: qtp36269085-17]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 16:52:04
+[DEBUG]-[Thread: qtp36269085-17]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-25 16:52:04
+[DEBUG]-[Thread: qtp36269085-17]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]: 传入ＳＱＬ:
+
+2016-01-25 16:52:04
+[DEBUG]-[Thread: qtp36269085-17]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]:  select * from t_project 
+
+2016-01-25 16:52:04
+[DEBUG]-[Thread: qtp36269085-17]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]: 转换后ＳＱＬ:
+
+2016-01-25 16:52:04
+[DEBUG]-[Thread: qtp36269085-17]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]:  select count(*) from (  select * from t_project  ) tab limit 0, 10
+
+2016-01-25 16:52:04
+[DEBUG]-[Thread: qtp36269085-17]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[{"total":3,"tableDatas":[{"columnNames":["count(*)"],"columnValues":[3],"columns":{"count(*)":3}}]}]
+
+2016-01-25 16:52:04
+[DEBUG]-[Thread: qtp36269085-17]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 16:52:48
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-25 16:52:49
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-25 16:54:24
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-25 16:54:25
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-25 16:54:27
+[DEBUG]-[Thread: qtp36269085-31]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 16:54:27
+[DEBUG]-[Thread: qtp36269085-31]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-25 16:54:27
+[DEBUG]-[Thread: qtp36269085-31]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]: 传入ＳＱＬ:
+
+2016-01-25 16:54:27
+[DEBUG]-[Thread: qtp36269085-31]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]:  select * from t_project 
+
+2016-01-25 16:54:27
+[DEBUG]-[Thread: qtp36269085-31]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]: 转换后ＳＱＬ:
+
+2016-01-25 16:54:27
+[DEBUG]-[Thread: qtp36269085-31]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]:  select * from (  select * from t_project  ) tab limit 0, 10
+
+2016-01-25 16:54:27
+[DEBUG]-[Thread: qtp36269085-31]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[{"total":3,"tableDatas":[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453132800000,100,"交通银行香港分行","3","港交行"],"columns":{"createtime":1453132800000,"progress":100,"content":"交通银行香港分行","id":"3","name":"港交行"}}]}]
+
+2016-01-25 16:54:27
+[DEBUG]-[Thread: qtp36269085-31]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 17:13:16
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-25 17:13:16
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-25 17:13:21
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-25 17:13:21
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-25 17:13:26
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-25 17:13:26
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-25 17:23:52
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-25 17:23:54
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-25 17:24:12
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-25 17:24:13
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-25 17:24:58
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-25 17:24:58
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-25 17:25:08
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-25 17:25:08
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-25 17:25:13
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-25 17:25:14
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-25 17:25:27
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-25 17:25:32
+[DEBUG]-[Thread: qtp1546904284-20]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 17:25:32
+[DEBUG]-[Thread: qtp1546904284-20]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-25 17:25:32
+[DEBUG]-[Thread: qtp1546904284-20]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]: 传入ＳＱＬ:
+
+2016-01-25 17:25:32
+[DEBUG]-[Thread: qtp1546904284-20]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]:  select * from t_project 
+
+2016-01-25 17:25:32
+[DEBUG]-[Thread: qtp1546904284-20]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]: 转换后ＳＱＬ:
+
+2016-01-25 17:25:32
+[DEBUG]-[Thread: qtp1546904284-20]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]:  select * from (  select * from t_project  ) tab limit 1, 10
+
+2016-01-25 17:25:32
+[DEBUG]-[Thread: qtp1546904284-20]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[{"total":3,"tableDatas":[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453132800000,100,"交通银行香港分行","3","港交行"],"columns":{"createtime":1453132800000,"progress":100,"content":"交通银行香港分行","id":"3","name":"港交行"}}]}]
+
+2016-01-25 17:25:32
+[DEBUG]-[Thread: qtp1546904284-20]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 17:25:47
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-25 17:25:47
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-25 17:25:50
+[DEBUG]-[Thread: qtp1546904284-19]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 17:25:50
+[DEBUG]-[Thread: qtp1546904284-19]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-25 17:25:50
+[DEBUG]-[Thread: qtp1546904284-19]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]: 传入ＳＱＬ:
+
+2016-01-25 17:25:50
+[DEBUG]-[Thread: qtp1546904284-19]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]:  select * from t_project 
+
+2016-01-25 17:25:50
+[DEBUG]-[Thread: qtp1546904284-19]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]: 转换后ＳＱＬ:
+
+2016-01-25 17:25:50
+[DEBUG]-[Thread: qtp1546904284-19]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]:  select * from (  select * from t_project  ) tab limit 0, 10
+
+2016-01-25 17:25:50
+[DEBUG]-[Thread: qtp1546904284-19]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[{"total":3,"tableDatas":[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453132800000,100,"交通银行香港分行","3","港交行"],"columns":{"createtime":1453132800000,"progress":100,"content":"交通银行香港分行","id":"3","name":"港交行"}}]}]
+
+2016-01-25 17:25:50
+[DEBUG]-[Thread: qtp1546904284-19]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 17:28:18
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-25 17:28:19
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-25 17:28:23
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-25 17:28:24
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-25 17:28:28
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-25 17:28:29
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-25 17:28:33
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-25 17:28:34
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-25 17:28:54
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.close()]: {dataSource-1} closed
+
+2016-01-25 17:28:54
+[INFO]-[Thread: JFinal-Scanner]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2016-01-25 17:32:59
+[DEBUG]-[Thread: qtp1546904284-19]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 17:32:59
+[DEBUG]-[Thread: qtp1546904284-19]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-25 17:32:59
+[DEBUG]-[Thread: qtp1546904284-19]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]: 传入ＳＱＬ:
+
+2016-01-25 17:32:59
+[DEBUG]-[Thread: qtp1546904284-19]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]:  select * from t_project 
+
+2016-01-25 17:32:59
+[DEBUG]-[Thread: qtp1546904284-19]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]: 转换后ＳＱＬ:
+
+2016-01-25 17:32:59
+[DEBUG]-[Thread: qtp1546904284-19]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]:  select * from (  select * from t_project  ) tab limit 0, 10
+
+2016-01-25 17:32:59
+[DEBUG]-[Thread: qtp1546904284-19]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[{"total":3,"tableDatas":[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453132800000,100,"交通银行香港分行","3","港交行"],"columns":{"createtime":1453132800000,"progress":100,"content":"交通银行香港分行","id":"3","name":"港交行"}}],"totalPage":1}]
+
+2016-01-25 17:32:59
+[DEBUG]-[Thread: qtp1546904284-19]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 17:33:09
+[DEBUG]-[Thread: qtp1546904284-19]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 17:33:09
+[DEBUG]-[Thread: qtp1546904284-19]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-25 17:33:09
+[DEBUG]-[Thread: qtp1546904284-19]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]: 传入ＳＱＬ:
+
+2016-01-25 17:33:09
+[DEBUG]-[Thread: qtp1546904284-19]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]:  select * from t_project 
+
+2016-01-25 17:33:09
+[DEBUG]-[Thread: qtp1546904284-19]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]: 转换后ＳＱＬ:
+
+2016-01-25 17:33:09
+[DEBUG]-[Thread: qtp1546904284-19]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]:  select * from (  select * from t_project  ) tab limit 0, 10
+
+2016-01-25 17:33:09
+[DEBUG]-[Thread: qtp1546904284-19]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[{"total":3,"tableDatas":[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453132800000,100,"交通银行香港分行","3","港交行"],"columns":{"createtime":1453132800000,"progress":100,"content":"交通银行香港分行","id":"3","name":"港交行"}}],"totalPage":1}]
+
+2016-01-25 17:33:09
+[DEBUG]-[Thread: qtp1546904284-19]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 17:33:36
+[DEBUG]-[Thread: qtp1546904284-18]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 17:33:36
+[DEBUG]-[Thread: qtp1546904284-18]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-25 17:33:36
+[DEBUG]-[Thread: qtp1546904284-18]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]: 传入ＳＱＬ:
+
+2016-01-25 17:33:36
+[DEBUG]-[Thread: qtp1546904284-18]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]:  select * from t_project 
+
+2016-01-25 17:33:36
+[DEBUG]-[Thread: qtp1546904284-18]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]: 转换后ＳＱＬ:
+
+2016-01-25 17:33:36
+[DEBUG]-[Thread: qtp1546904284-18]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]:  select * from (  select * from t_project  ) tab limit 0, 10
+
+2016-01-25 17:33:36
+[DEBUG]-[Thread: qtp1546904284-18]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[{"total":3,"tableDatas":[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453132800000,100,"交通银行香港分行","3","港交行"],"columns":{"createtime":1453132800000,"progress":100,"content":"交通银行香港分行","id":"3","name":"港交行"}}],"totalPage":1}]
+
+2016-01-25 17:33:36
+[DEBUG]-[Thread: qtp1546904284-18]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 17:33:54
+[DEBUG]-[Thread: qtp1546904284-21]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 17:33:54
+[DEBUG]-[Thread: qtp1546904284-21]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-25 17:33:54
+[DEBUG]-[Thread: qtp1546904284-21]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]: 传入ＳＱＬ:
+
+2016-01-25 17:33:54
+[DEBUG]-[Thread: qtp1546904284-21]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]:  select * from t_project 
+
+2016-01-25 17:33:54
+[DEBUG]-[Thread: qtp1546904284-21]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]: 转换后ＳＱＬ:
+
+2016-01-25 17:33:54
+[DEBUG]-[Thread: qtp1546904284-21]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]:  select * from (  select * from t_project  ) tab limit 0, 10
+
+2016-01-25 17:33:54
+[DEBUG]-[Thread: qtp1546904284-21]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[{"total":3,"tableDatas":[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453132800000,100,"交通银行香港分行","3","港交行"],"columns":{"createtime":1453132800000,"progress":100,"content":"交通银行香港分行","id":"3","name":"港交行"}}],"totalPage":1}]
+
+2016-01-25 17:33:54
+[DEBUG]-[Thread: qtp1546904284-21]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 17:34:08
+[DEBUG]-[Thread: qtp1546904284-19]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 17:34:08
+[DEBUG]-[Thread: qtp1546904284-19]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-25 17:34:08
+[DEBUG]-[Thread: qtp1546904284-19]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]: 传入ＳＱＬ:
+
+2016-01-25 17:34:08
+[DEBUG]-[Thread: qtp1546904284-19]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]:  select * from t_project 
+
+2016-01-25 17:34:08
+[DEBUG]-[Thread: qtp1546904284-19]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]: 转换后ＳＱＬ:
+
+2016-01-25 17:34:08
+[DEBUG]-[Thread: qtp1546904284-19]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]:  select * from (  select * from t_project  ) tab limit 0, 10
+
+2016-01-25 17:34:08
+[DEBUG]-[Thread: qtp1546904284-19]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[{"total":3,"tableDatas":[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453132800000,100,"交通银行香港分行","3","港交行"],"columns":{"createtime":1453132800000,"progress":100,"content":"交通银行香港分行","id":"3","name":"港交行"}}],"totalPage":1}]
+
+2016-01-25 17:34:08
+[DEBUG]-[Thread: qtp1546904284-19]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 17:34:25
+[DEBUG]-[Thread: qtp1546904284-20]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 17:34:25
+[DEBUG]-[Thread: qtp1546904284-20]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-25 17:34:25
+[DEBUG]-[Thread: qtp1546904284-20]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]: 传入ＳＱＬ:
+
+2016-01-25 17:34:25
+[DEBUG]-[Thread: qtp1546904284-20]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]:  select * from t_project 
+
+2016-01-25 17:34:25
+[DEBUG]-[Thread: qtp1546904284-20]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]: 转换后ＳＱＬ:
+
+2016-01-25 17:34:25
+[DEBUG]-[Thread: qtp1546904284-20]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]:  select * from (  select * from t_project  ) tab limit 0, 10
+
+2016-01-25 17:34:25
+[DEBUG]-[Thread: qtp1546904284-20]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[{"total":3,"tableDatas":[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453132800000,100,"交通银行香港分行","3","港交行"],"columns":{"createtime":1453132800000,"progress":100,"content":"交通银行香港分行","id":"3","name":"港交行"}}],"totalPage":1}]
+
+2016-01-25 17:34:25
+[DEBUG]-[Thread: qtp1546904284-20]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 17:37:51
+[DEBUG]-[Thread: qtp1546904284-19]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 17:37:51
+[DEBUG]-[Thread: qtp1546904284-19]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-25 17:37:51
+[DEBUG]-[Thread: qtp1546904284-19]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]: 传入ＳＱＬ:
+
+2016-01-25 17:37:51
+[DEBUG]-[Thread: qtp1546904284-19]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]:  select * from t_project 
+
+2016-01-25 17:37:51
+[DEBUG]-[Thread: qtp1546904284-19]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]: 转换后ＳＱＬ:
+
+2016-01-25 17:37:51
+[DEBUG]-[Thread: qtp1546904284-19]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]:  select * from (  select * from t_project  ) tab limit 0, 10
+
+2016-01-25 17:37:51
+[DEBUG]-[Thread: qtp1546904284-19]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[{"total":3,"tableDatas":[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453132800000,100,"交通银行香港分行","3","港交行"],"columns":{"createtime":1453132800000,"progress":100,"content":"交通银行香港分行","id":"3","name":"港交行"}}],"totalPage":1}]
+
+2016-01-25 17:37:51
+[DEBUG]-[Thread: qtp1546904284-19]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 17:38:27
+[DEBUG]-[Thread: qtp1546904284-20]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 17:38:27
+[DEBUG]-[Thread: qtp1546904284-20]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-25 17:38:27
+[DEBUG]-[Thread: qtp1546904284-20]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]: 传入ＳＱＬ:
+
+2016-01-25 17:38:27
+[DEBUG]-[Thread: qtp1546904284-20]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]:  select * from t_project 
+
+2016-01-25 17:38:27
+[DEBUG]-[Thread: qtp1546904284-20]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]: 转换后ＳＱＬ:
+
+2016-01-25 17:38:27
+[DEBUG]-[Thread: qtp1546904284-20]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]:  select * from (  select * from t_project  ) tab limit 0, 10
+
+2016-01-25 17:38:27
+[DEBUG]-[Thread: qtp1546904284-20]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[{"total":3,"tableDatas":[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453132800000,100,"交通银行香港分行","3","港交行"],"columns":{"createtime":1453132800000,"progress":100,"content":"交通银行香港分行","id":"3","name":"港交行"}}],"totalPage":1}]
+
+2016-01-25 17:38:27
+[DEBUG]-[Thread: qtp1546904284-20]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 17:39:27
+[DEBUG]-[Thread: qtp1546904284-19]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 17:39:27
+[DEBUG]-[Thread: qtp1546904284-19]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-25 17:39:27
+[DEBUG]-[Thread: qtp1546904284-19]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]: 传入ＳＱＬ:
+
+2016-01-25 17:39:27
+[DEBUG]-[Thread: qtp1546904284-19]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]:  select * from t_project 
+
+2016-01-25 17:39:27
+[DEBUG]-[Thread: qtp1546904284-19]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]: 转换后ＳＱＬ:
+
+2016-01-25 17:39:27
+[DEBUG]-[Thread: qtp1546904284-19]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]:  select * from (  select * from t_project  ) tab limit 0, 10
+
+2016-01-25 17:39:27
+[DEBUG]-[Thread: qtp1546904284-19]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[{"total":3,"tableDatas":[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453132800000,100,"交通银行香港分行","3","港交行"],"columns":{"createtime":1453132800000,"progress":100,"content":"交通银行香港分行","id":"3","name":"港交行"}}],"totalPage":1}]
+
+2016-01-25 17:39:27
+[DEBUG]-[Thread: qtp1546904284-19]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 17:39:28
+[DEBUG]-[Thread: qtp1546904284-42]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 17:39:28
+[DEBUG]-[Thread: qtp1546904284-42]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-25 17:39:28
+[DEBUG]-[Thread: qtp1546904284-42]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]: 传入ＳＱＬ:
+
+2016-01-25 17:39:28
+[DEBUG]-[Thread: qtp1546904284-42]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]:  select * from t_project 
+
+2016-01-25 17:39:28
+[DEBUG]-[Thread: qtp1546904284-42]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]: 转换后ＳＱＬ:
+
+2016-01-25 17:39:28
+[DEBUG]-[Thread: qtp1546904284-42]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]:  select * from (  select * from t_project  ) tab limit 0, 10
+
+2016-01-25 17:39:28
+[DEBUG]-[Thread: qtp1546904284-42]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[{"total":3,"tableDatas":[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453132800000,100,"交通银行香港分行","3","港交行"],"columns":{"createtime":1453132800000,"progress":100,"content":"交通银行香港分行","id":"3","name":"港交行"}}],"totalPage":1}]
+
+2016-01-25 17:39:28
+[DEBUG]-[Thread: qtp1546904284-42]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 17:39:28
+[DEBUG]-[Thread: qtp1546904284-41]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 17:39:28
+[DEBUG]-[Thread: qtp1546904284-41]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-25 17:39:28
+[DEBUG]-[Thread: qtp1546904284-41]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]: 传入ＳＱＬ:
+
+2016-01-25 17:39:28
+[DEBUG]-[Thread: qtp1546904284-41]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]:  select * from t_project 
+
+2016-01-25 17:39:28
+[DEBUG]-[Thread: qtp1546904284-41]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]: 转换后ＳＱＬ:
+
+2016-01-25 17:39:28
+[DEBUG]-[Thread: qtp1546904284-41]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]:  select * from (  select * from t_project  ) tab limit 0, 10
+
+2016-01-25 17:39:28
+[DEBUG]-[Thread: qtp1546904284-41]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[{"total":3,"tableDatas":[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453132800000,100,"交通银行香港分行","3","港交行"],"columns":{"createtime":1453132800000,"progress":100,"content":"交通银行香港分行","id":"3","name":"港交行"}}],"totalPage":1}]
+
+2016-01-25 17:39:28
+[DEBUG]-[Thread: qtp1546904284-41]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 17:39:29
+[DEBUG]-[Thread: qtp1546904284-40]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 17:39:29
+[DEBUG]-[Thread: qtp1546904284-40]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-25 17:39:29
+[DEBUG]-[Thread: qtp1546904284-40]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]: 传入ＳＱＬ:
+
+2016-01-25 17:39:29
+[DEBUG]-[Thread: qtp1546904284-40]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]:  select * from t_project 
+
+2016-01-25 17:39:29
+[DEBUG]-[Thread: qtp1546904284-40]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]: 转换后ＳＱＬ:
+
+2016-01-25 17:39:29
+[DEBUG]-[Thread: qtp1546904284-40]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]:  select * from (  select * from t_project  ) tab limit 0, 10
+
+2016-01-25 17:39:29
+[DEBUG]-[Thread: qtp1546904284-40]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[{"total":3,"tableDatas":[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453132800000,100,"交通银行香港分行","3","港交行"],"columns":{"createtime":1453132800000,"progress":100,"content":"交通银行香港分行","id":"3","name":"港交行"}}],"totalPage":1}]
+
+2016-01-25 17:39:29
+[DEBUG]-[Thread: qtp1546904284-40]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 17:42:02
+[DEBUG]-[Thread: qtp1546904284-19]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
+
+2016-01-25 17:42:02
+[DEBUG]-[Thread: qtp1546904284-19]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: SQL:[ select * from t_project ]
+
+2016-01-25 17:42:02
+[DEBUG]-[Thread: qtp1546904284-19]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]: 传入ＳＱＬ:
+
+2016-01-25 17:42:02
+[DEBUG]-[Thread: qtp1546904284-19]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]:  select * from t_project 
+
+2016-01-25 17:42:02
+[DEBUG]-[Thread: qtp1546904284-19]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]: 转换后ＳＱＬ:
+
+2016-01-25 17:42:02
+[DEBUG]-[Thread: qtp1546904284-19]-[com.aotimes.yy.demo.act.BaseAct.getLimitSql()]:  select * from (  select * from t_project  ) tab limit 0, 10
+
+2016-01-25 17:42:02
+[DEBUG]-[Thread: qtp1546904284-19]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: data:[{"total":3,"tableDatas":[{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453478400000,0,"内蒙电力","1","内蒙电力"],"columns":{"createtime":1453478400000,"progress":0,"content":"内蒙电力","id":"1","name":"内蒙电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453910400000,0,"广州电力","2","广州电力"],"columns":{"createtime":1453910400000,"progress":0,"content":"广州电力","id":"2","name":"广州电力"}},{"columnNames":["createtime","progress","content","id","name"],"columnValues":[1453132800000,100,"交通银行香港分行","3","港交行"],"columns":{"createtime":1453132800000,"progress":100,"content":"交通银行香港分行","id":"3","name":"港交行"}}],"totalPage":1}]
+
+2016-01-25 17:42:02
+[DEBUG]-[Thread: qtp1546904284-19]-[com.aotimes.yy.demo.act.BaseAct.getGridData()]: ---------------------get Table data---------------------
