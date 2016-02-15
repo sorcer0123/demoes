@@ -1,5 +1,6 @@
 package com.aotimes.yy.demo.act;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -32,18 +33,28 @@ public class BaseAct extends Controller {
 	public String getGridData(String sql) {
 		log.debug("---------------------get Table data---------------------");
 		log.debug("SQL:[" + sql + "]");
+
+		List<Map<String, Object>> rows = new ArrayList<Map<String, Object>>();
+
 		Map<String, Object> map = new HashMap<>();
 
 		String totalSql = getTotalSql(sql);
 		long total = Db.queryLong(totalSql);
 		map.put("total", total);// 返回所有条数
 
-		long totalPage = (total - 1) / 10 + 1;
-		map.put("totalPage", totalPage);
+		//long totalPage = (total - 1) / 10 + 1;
+		//map.put("total", totalPage);
 
 		String litmitSql = getLimitSql(sql);
 		List<Record> list = Db.find(litmitSql);
-		map.put("tableDatas", list);
+
+		for (int i = 0, length = list.size(); i < length; i++) {
+			Record columnValues = list.get(i);
+			Map<String, Object> m = columnValues.getColumns();
+			rows.add(m);
+		}
+
+		map.put("rows", rows);
 
 		String result = JSON.toJSONString(map);
 
