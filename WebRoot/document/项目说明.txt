@@ -1,0 +1,15 @@
+项目后台采用jfinal框架,fastJson,阿里巴巴数据源,log4j
+数据库mysql
+前台框架妹纸UI、artDialog
+
+
+
+
+
+
+
+项目git地址：
+https://github.com/sorcer0123/demoes.git
+用户名：sorcer0123
+密码：anotherese1984
+
