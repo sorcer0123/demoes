@@ -12,24 +12,25 @@ String basePath = request.getScheme() + "://" + request.getServerName() + ":" + 
 <jsp:include page="../include.jsp"></jsp:include>
 <script type="text/javascript">
 $(function(){
-	
-	$table($("#projectTable"), {
-		url : "<%=basePath%>admin/projectTable",
-		postData : {
-			
-		},
-		colTitle : ['ID', '名称', '备注', '创建日期'],
-		colModel : [
-			{colName : "id"},
-			{colName : "name"},
-			{colName : "content"},
-			{colName : "createtime"}
-		],
-		checkbox : true,
-		isEditCol : true
+
+	$table("projectTable", {
+		url:"<%=basePath%>admin/projectTable",
+		columns:[
+			{field:'id',title:'ID',idField:true}, 
+			{field:'name',title:'项目名称'},
+			{field:'content',title:'备注'},
+			{field:'createtime',title:'创建日期',formatter:dateFormatter}
+		]
 	});
-	
 });
+
+function opDialog(){
+	
+	var $modal = $('#addOrUpdateProject');
+	$modal.modal();
+	
+}
+
 </script>
 </head>
 <body>
@@ -47,40 +48,12 @@ $(function(){
 				<jsp:param value="Project" name="two"/>
 			</jsp:include>
 			
-			<!-- 搜索 -->
-			<div class="am-g">
-				<div class="am-u-sm-12"><!-- 表格上方搜索部分 -->
-					<div class="am-input-group am-input-group-sm">
-						<input type="text" class="am-form-field">
-						<span class="am-input-group-btn">
-							<button class="am-btn am-btn-default" type="button">搜索</button>
-						</span>
-					</div>
-				</div><!-- 表格上方搜索部分 end -->
-			</div>
-			
-			<!-- 按钮组 -->
-			<div class="am-g">
-				<div class="am-u-sm-12">
-					<div class="am-btn-toolbar"><!-- 表格上方的按钮组 -->
-						<div class="am-btn-group am-btn-group-xs">
-							<button type="button" class="am-btn am-btn-default"><span class="am-icon-plus"></span> 新增</button>
-							<button type="button" class="am-btn am-btn-default"><span class="am-icon-save"></span> 保存</button>
-							<button type="button" class="am-btn am-btn-default"><span class="am-icon-trash-o"></span> 删除</button>
-						</div><!-- 表格上方的按钮组 end -->
-					</div>
-				</div>
-			</div>
-			
 			<!-- 表格 -->
 			<div class="am-g">
 				<div class="am-u-sm-12">
-					<form class="am-form">
-						<table id="projectTable"></table>
-					</form>
+					<table id="projectTable"></table>
 				</div>
 			</div>
-			
 			
 		</div><!-- 右边内容部分结束 -->
 	
