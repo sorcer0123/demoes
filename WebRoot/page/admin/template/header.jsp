@@ -15,13 +15,13 @@
 			</li>
 			<li class="am-dropdown" data-am-dropdown>
 				<a class="am-dropdown-toggle" data-am-dropdown-toggle href="javascript:void(0);">
-         				<span class="am-icon-users"></span> 管理员 <span class="am-icon-caret-down"></span>
-       			</a>
-       			<ul class="am-dropdown-content">
-       				<li><a href="#"><span class="am-icon-user"></span> 资料</a></li>
-         				<li><a href="#"><span class="am-icon-cog"></span> 设置</a></li>
-         				<li><a href="#"><span class="am-icon-power-off"></span> 退出</a></li>
-       			</ul>
+					<span class="am-icon-users"></span> 管理员 <span class="am-icon-caret-down"></span>
+				</a>
+				<ul class="am-dropdown-content">
+					<li><a href="#"><span class="am-icon-user"></span> 资料</a></li>
+					<li><a href="#"><span class="am-icon-cog"></span> 设置</a></li>
+					<li><a href="#"><span class="am-icon-power-off"></span> 退出</a></li>
+				</ul>
 			</li>
 			<li class="am-hide-sm-only">
 				<a href="javascript:void(0);" id="admin-fullscreen">
