@@ -14,6 +14,8 @@
 
 <script type="text/javascript" charset="utf-8" src="<%=basePath%>jsLib/utils/ajax.js"></script>
 
+<script type="text/javascript" charset="utf-8" src="<%=basePath%>jsLib/utils/string.js"></script>
+
 <script type="text/javascript" charset="utf-8" src="<%=basePath%>jsLib/utils/date.js"></script>
 
 <script type="text/javascript" charset="utf-8" src="<%=basePath%>jsLib/utils/table.js"></script>
@@ -37,4 +39,11 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.10.0/bootstrap-table.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.10.0/locale/bootstrap-table-zh-CN.min.js"></script>
 
+<link rel="stylesheet" href="<%=basePath%>jsLib/artDialog/css/ui-dialog.css">
+<script type="text/javascript" charset="utf-8" src="<%=basePath%>jsLib/artDialog/dist/dialog.js"></script>
 
+<script type="text/javascript" charset="utf-8" src="<%=basePath%>jsLib/utils/dialog.js"></script>
+
+<script src="//cdn.bootcss.com/jquery-validate/1.14.0/jquery.validate.js"></script>
+
+<script type="text/javascript" charset="utf-8" src="<%=basePath%>jsLib/utils/form.js"></script>

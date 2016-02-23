@@ -8,7 +8,6 @@ import com.jfinal.plugin.activerecord.Model;
  *        不能用于数据承载对象。数据承载需要使用 new User().set(…)来实现
  * @category bean
  * @author 杨阳
- *
  */
 public class TProject extends Model<TProject> {
 

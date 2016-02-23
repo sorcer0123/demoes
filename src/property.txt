@@ -1,5 +1,11 @@
+##配置数据库信息
 jdbc.url=jdbc:mysql://localhost/demoes?useUnicode=true&characterEncoding=utf-8
 jdbc.user=root
 jdbc.pwd=
 jdbc.driver=com.mysql.jdbc.Driver
+
+##是否是开发模式
+devMode=true
+
+
 

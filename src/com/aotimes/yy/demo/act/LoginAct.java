@@ -18,9 +18,6 @@ public class LoginAct extends BaseAct {
 
 	@ActionKey("/admin")
 	public void admin() {// 跳转到管理端
-		// 查询出共有多少项目
-		long totalProject = Db.queryLong("select count(1) from t_project");
-		setSessionAttr("totalProject", totalProject);
 		render("admin/admin.jsp");
 	}
 

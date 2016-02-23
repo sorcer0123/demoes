@@ -17,14 +17,14 @@
 		<div class="admin-content"><!-- 右边内容部分 -->
 			
 			<!-- 页面导航 -->
-    		<jsp:include page="template/navigator.jsp">
-    			<jsp:param value="首页" name="one"/>
-    			<jsp:param value="Home" name="two"/>
-    		</jsp:include>
-    		
-    		<!-- help.jsp -->
-    		<jsp:include page="template/help.jsp"></jsp:include>
-    		
+			<jsp:include page="template/navigator.jsp">
+				<jsp:param value="首页" name="one"/>
+				<jsp:param value="Home" name="two"/>
+			</jsp:include>
+			
+			<!-- help.jsp -->
+			<jsp:include page="template/help.jsp"></jsp:include>
+	
 		</div><!-- 右边内容部分结束 -->
 	
 	</div><!-- 后台管理内容部分，包含左右两边结束 -->
